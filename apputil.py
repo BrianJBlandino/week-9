@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 class GroupEstimate:
     """Creating a class that accepts an estimate argument
     that can be either 'mean' or 'median'."""
