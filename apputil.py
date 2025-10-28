@@ -57,5 +57,5 @@ class GroupEstimate:
         if missing_groups > 0:
             print(f"{missing_groups} observation(s) correspond to missing groups in the training data.")
 
-        # Returning the 'predictions'
-        return predictions
+        # Returning the 'predictions' as a NumPy array
+        return predictions.to_numpy()
